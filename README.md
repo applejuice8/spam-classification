@@ -2,7 +2,7 @@
 
 A spam classification model built in `Python` and `Scikit-learn` to filter spam messages.
 
-Data from ![Kaggle Spam Email Dataset](https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset)
+Data from [Kaggle Spam Email Dataset](https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset)
 
 ---
 
