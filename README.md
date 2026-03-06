@@ -2,6 +2,8 @@
 
 A spam classification model built in `Python` and `Scikit-learn` to filter spam messages.
 
+Data from ![Kaggle Spam Email Dataset](https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset)
+
 ---
 
 # 2 Distinct Vectorizers
@@ -10,12 +12,20 @@ A spam classification model built in `Python` and `Scikit-learn` to filter spam 
 
 ---
 
-# 2 Best Performing Model + Vectorizer Combinations
+# Best Performing Model With Each Vectorizer
 
-## 1. MLPClassifier + CountVectorizer
+## 1. CountVectorizer + MLPClassifier
 
-This model + vectorizer combination is the best performing, getting only 5/1146 wrongly.
+Accuracy: 0.9747292418772563
 
-## 2. MLPClassifier + TF-IDF Vectorizer
+Confusion matrix:
+ [[865   7]
+ [  4 270]]
 
-On the other hand, this model + vectorizer combination performs slightly worse than the previous, getting 10/1146 samples wrongly.
+## 2. TF-IDF Vectorizer + MLPClassifier
+
+Score: 0.9712230215827338
+
+Confusion matrix:
+ [[864   8]
+ [  4 270]]
